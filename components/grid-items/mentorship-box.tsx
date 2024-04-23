@@ -14,7 +14,7 @@ const Mentorship = ({ item }: { item: GridItemInterface }) => {
             {/* other text */}
             <div>
                 <div className='flex item-center justify-between'>
-                    <div className='text-xs text-neutral-500'>promo</div>
+                    <div className='text-xs text-neutral-500'>Repo</div>
                     <div className='flex items-center gap-1'>
                         <span className='text-xs line-through text-neutral-500'>{item.oldPrice}</span>
                         <span className='text-xs line-through text-neutral-500'>{item.price}</span>
