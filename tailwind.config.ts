@@ -19,6 +19,9 @@ const config: Config = {
         sans: ["var(--font-sfpro)"],
       },
     },
+    scrollbars: {
+      none: 'overflow-hidden',
+    },
   },
   plugins: [],
 };
