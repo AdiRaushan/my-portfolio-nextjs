@@ -30,14 +30,14 @@ const GridItems: GridItemInterface[] = [
     {
         layout: "2x2",
         type: "social",
-        title: "Youtube",
-        icon: "youtube",
-        username: "@makrdev",
+        title: "Linkdin",
+        icon: "linkdin",
+        username: "@Aditya Raushan",
         description:
             "My true passion is learning and sharing my knowledge, which is why I started creating Youtube videos about web development, startups, and marketing.",
-        color: "#FF0000",
-        buttonTitle: "Subscribe",
-        buttonLink: "https://www.youtube.com/@makrdev",
+        color: "#0072b1",
+        buttonTitle: "Connect",
+        buttonLink: "https://www.linkedin.com/in/adiraushan/",
         buttonSecondaryText: "1.1K",
     },
     {
@@ -140,19 +140,7 @@ const GridItems: GridItemInterface[] = [
         buttonLink: "https://github.com/batuhanbilginn/makr-ai",
         stars: 73,
     },
-    {
-        layout: "2x2",
-        type: "social",
-        title: "Next Project ",
-        username: "@Github/adiraushan",
-        description:
-            "learning to work with more complex Api and connecting the server side to client side.",
-        icon: "udemy",
-        buttonTitle: "Enroll",
-        buttonSecondaryText: "%90 OFF",
-        buttonLink:
-            "https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2",
-    },
+
     {
         layout: "2x1",
         type: "project",
@@ -161,6 +149,32 @@ const GridItems: GridItemInterface[] = [
         stars: 19,
         color: "#070707",
         buttonLink: "https://github.com/batuhanbilginn/ai-blog-post-generator",
+    },
+    {
+        layout: "2x2",
+        type: "social",
+        title: "Spotify ",
+        username: "@Github/adiraushan",
+        description:
+            "learning to work with more complex Api and connecting the server side to client side.",
+        icon: "spotify",
+        buttonTitle: "Enroll",
+        buttonSecondaryText: "%90 OFF",
+        buttonLink:
+            "https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2",
+    },
+    {
+        layout: "2x2",
+        type: "social",
+        title: "Spotify ",
+        username: "@Github/adiraushan",
+        description:
+            "learning to work with more complex Api and connecting the server side to client side.",
+        icon: "spotify",
+        buttonTitle: "Enroll",
+        buttonSecondaryText: "%90 OFF",
+        buttonLink:
+            "https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2",
     },
 ];
 
