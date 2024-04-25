@@ -38,7 +38,7 @@ const GridItems: GridItemInterface[] = [
         color: "#0072b1",
         buttonTitle: "Connect",
         buttonLink: "https://www.linkedin.com/in/adiraushan/",
-        buttonSecondaryText: "1.1K",
+        buttonSecondaryText: "",
     },
     {
         layout: "1x2",
@@ -48,7 +48,7 @@ const GridItems: GridItemInterface[] = [
         username: "@theadiraushan",
         buttonTitle: "Lets connect.",
         buttonLink: "https://twitter.com/theadiraushan",
-        buttonSecondaryText: "101",
+        buttonSecondaryText: "",
         color: "#1DA1F2",
         description:
             " ",
@@ -60,7 +60,7 @@ const GridItems: GridItemInterface[] = [
         icon: "github",
         username: "@Adiraushan",
         buttonTitle: "Follow",
-        buttonSecondaryText: "11",
+        buttonSecondaryText: "",
         buttonLink: "https://github.com/AdiRaushan",
         color: "#070707",
     },
@@ -124,6 +124,17 @@ const GridItems: GridItemInterface[] = [
             },
         ],
     },
+    {
+        layout: "2x2",
+        type: "project",
+        title: "Project Null",
+        icon: "github",
+        color: "#070707",
+        promotion: "Vist",
+        oldPrice: "",
+        price: "",
+        buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
+    },
 
     {
         layout: "1x2",
@@ -169,17 +180,7 @@ const GridItems: GridItemInterface[] = [
         price: "",
         buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
     },
-    {
-        layout: "2x2",
-        type: "project",
-        title: "Project Null",
-        icon: "github",
-        color: "#070707",
-        promotion: "Vist",
-        oldPrice: "",
-        price: "",
-        buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
-    },
+
 
 
     {
