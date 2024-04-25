@@ -13,11 +13,11 @@ const Project = ({ item }: { item: GridItemInterface }) => {
                 <Icon type={item.icon ?? ""} color={item.color} />
                 {/* button */}
                 {item.layout === "2x2" && (
-                    <div text={item.buttonTitle ?? ""}
+                    <Button text={item.buttonTitle ?? ""}
                         secondaryText={item.buttonSecondaryText}
-
+                        color={item.color}
                     />)}
-                <span> <ExternalLink /></span>
+
             </div>
             <div className="mt-2">
                 {/* content */}
@@ -25,7 +25,8 @@ const Project = ({ item }: { item: GridItemInterface }) => {
                 <div className="text-sm text-neutral-500">{item.username}</div>
                 {item.description && <div className="text-neutral-500 text-sm mt-1 line-clamp-2 @lg:line-champ-none ">{item.description}</div>}
                 {/* button */}
-
+                {item.layout === "1x2" && (
+                    <div className="mt-2"><Button text={item.buttonTitle ?? ""} secondaryText={item.buttonSecondaryText} color={item.color} /></div>)}
             </div>
 
         </Link>

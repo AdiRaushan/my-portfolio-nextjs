@@ -15,7 +15,7 @@ export interface GridItemInterface {
     color?: string;
     buttonTitle?: string;
     buttonLink?: string;
-    buttonSecondaryText?: string;
+    buttonSecondaryText?: string | undefined;
     /* Mentor */
     promotion?: string;
     price?: string;
@@ -131,9 +131,7 @@ const GridItems: GridItemInterface[] = [
         description: "my project is good project than alot of propjects",
         icon: "github",
         color: "#070707",
-
-        buttonTitle: "",
-
+        buttonTitle: "🔗 Link",
         buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
     },
 
@@ -144,7 +142,7 @@ const GridItems: GridItemInterface[] = [
         description: "my project is good project than alot of propjects",
         icon: "github",
         color: "#070707",
-        buttonTitle: "Link",
+        buttonTitle: "🔗 Link",
 
         buttonLink: "https://superpeer.com/makrdev/-/nextjs-mentor",
     },
@@ -155,7 +153,7 @@ const GridItems: GridItemInterface[] = [
         description: "my project is good project than alot of propjects",
         icon: "github",
         color: "#070707",
-        buttonTitle: "Link",
+        buttonTitle: "🔗 Link",
 
         buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
     },
@@ -166,7 +164,7 @@ const GridItems: GridItemInterface[] = [
         description: "my project is good project than alot of propjects",
         icon: "github",
         color: "#070707",
-        buttonTitle: "Link",
+        buttonTitle: "🔗 Link",
 
         buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
     },
@@ -176,7 +174,7 @@ const GridItems: GridItemInterface[] = [
         title: "Project Null",
         description: "my project is good project than alot of propjects",
         icon: "github",
-        buttonTitle: "Link",
+        buttonTitle: "🔗 Link",
         color: "#070707",
 
         buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
