@@ -128,56 +128,55 @@ const GridItems: GridItemInterface[] = [
         layout: "2x2",
         type: "project",
         title: " Netflix-with-js ",
-        description: "my project is good project than alot of propjects",
+        description: "Netflix App with using api and javascript to fetch movie and data from TMDB",
         icon: "github",
         color: "#070707",
         buttonTitle: "🔗 Link",
-        buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
+        buttonLink: "https://github.com/AdiRaushan/Netflix_with-_js",
     },
 
     {
         layout: "1x2",
         type: "project",
-        title: "Api caller ",
-        description: "my project is good project than alot of propjects",
+        title: "Chatgpt Clone",
+        description: "handling API with understanding of react and js core concept and creating this clone using GPT API",
         icon: "github",
         color: "#070707",
         buttonTitle: "🔗 Link",
 
-        buttonLink: "https://superpeer.com/makrdev/-/nextjs-mentor",
+        buttonLink: "",
     },
     {
         layout: "1x2",
         type: "project",
-        title: "Project Null",
-        description: "my project is good project than alot of propjects",
+        title: "Shopo",
+        description: "A shoping website multiple complex funtion,authentication,payment-gateway and more",
         icon: "github",
         color: "#070707",
         buttonTitle: "🔗 Link",
 
-        buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
+        buttonLink: "",
     },
     {
         layout: "1x2",
         type: "project",
-        title: "Project Null",
-        description: "my project is good project than alot of propjects",
+        title: "Password Generator",
+        description: "A simple web-based password generator built with React.",
         icon: "github",
         color: "#070707",
         buttonTitle: "🔗 Link",
 
-        buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
+        buttonLink: "https://github.com/AdiRaushan/Password-gen-reactjs",
     },
     {
         layout: "1x2",
         type: "project",
-        title: "Project Null",
-        description: "my project is good project than alot of propjects",
+        title: "Himachal-explore",
+        description: "Responsive Travel Website Design Using HTML CSS & JavaScript Contains animations when scrolling. Smooth scrolling in each section.",
         icon: "github",
         buttonTitle: "🔗 Link",
         color: "#070707",
-
-        buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
+        buttonLink: "https://github.com/AdiRaushan/himachal-explore",
     },
 
 
@@ -186,14 +185,14 @@ const GridItems: GridItemInterface[] = [
         layout: "2x2",
         type: "social",
         title: "Spotify ",
-        username: "@Github/adiraushan",
+        username: "Playlist while coding",
         description:
             "learning to work with more complex Api and connecting the server side to client side.",
         icon: "spotify",
         buttonTitle: "Let's",
         buttonSecondaryText: "Play",
         buttonLink:
-            "https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2",
+            "https://open.spotify.com/playlist/7qXiuXxK17jU603sByQFf0?si=54808bd55f9a4f9c",
     },
 
 ];
