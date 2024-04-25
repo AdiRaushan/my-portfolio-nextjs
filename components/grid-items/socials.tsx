@@ -2,6 +2,7 @@ import { GridItemInterface } from "@/config/site-config";
 import Icon from "../icon";
 import Button from "../button";
 import Link from "next/link";
+import { ExternalLink } from "lucide-react";
 
 const SocialBox = ({ item }: { item: GridItemInterface }) => {
     return (
@@ -13,7 +14,9 @@ const SocialBox = ({ item }: { item: GridItemInterface }) => {
                 {item.layout === "2x2" && (
                     <Button text={item.buttonTitle ?? ""}
                         secondaryText={item.buttonSecondaryText}
-                        color={item.color} />)}
+                        color={item.color}
+                    />)}
+
             </div>
             <div className="mt-2">
                 {/* content */}
