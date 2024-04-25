@@ -48,7 +48,7 @@ const GridItems: GridItemInterface[] = [
         username: "@Adiraushan",
         buttonTitle: "Connect",
         buttonLink: "https://discord.com/invite/5aXRp49Q4h",
-        buttonSecondaryText: "",
+
         color: "#5865F2",
     },
     {

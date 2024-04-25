@@ -10,7 +10,10 @@ const SocialBox = ({ item }: { item: GridItemInterface }) => {
                 {/* icon */}
                 <Icon type={item.icon ?? ""} color={item.color} />
                 {/* button */}
-                {item.layout === "2x2" && (<Button text={item.buttonTitle ?? ""} secondaryText={item.buttonSecondaryText} color={item.color} />)}
+                {item.layout === "2x2" && (
+                    <Button text={item.buttonTitle ?? ""}
+                        secondaryText={item.buttonSecondaryText}
+                        color={item.color} />)}
             </div>
             <div className="mt-2">
                 {/* content */}

@@ -6,7 +6,7 @@ const Button = ({
     color = "#070707",
 }: {
     text: string;
-    secondaryText: string;
+    secondaryText: string | undefined;
     color?: string;
 }) => {
     return (
