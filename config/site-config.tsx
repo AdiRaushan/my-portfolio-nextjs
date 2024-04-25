@@ -43,13 +43,15 @@ const GridItems: GridItemInterface[] = [
     {
         layout: "1x2",
         type: "social",
-        title: "Discord",
-        icon: "discord",
-        username: "@Adiraushan",
-        buttonTitle: "Connect",
-        buttonLink: "https://discord.com/invite/5aXRp49Q4h",
-
-        color: "#5865F2",
+        title: "Twitter",
+        icon: "twitter",
+        username: "@theadiraushan",
+        buttonTitle: "Lets connect.",
+        buttonLink: "https://twitter.com/theadiraushan",
+        buttonSecondaryText: "101",
+        color: "#1DA1F2",
+        description:
+            " ",
     },
     {
         layout: "1x2",
@@ -122,21 +124,9 @@ const GridItems: GridItemInterface[] = [
             },
         ],
     },
+
     {
-        layout: "2x2",
-        type: "social",
-        title: "Twitter",
-        icon: "twitter",
-        username: "@theadiraushan",
-        buttonTitle: "Follow",
-        buttonLink: "https://twitter.com/theadiraushan",
-        buttonSecondaryText: "101",
-        color: "#1DA1F2",
-        description:
-            "I craft user-friendly web experiences with expertise in HTML, CSS, and JavaScript frameworks like React. Lets connect.",
-    },
-    {
-        layout: "2x2",
+        layout: "1x2",
         type: "project",
         title: "Api caller ",
         icon: "github",
@@ -145,6 +135,39 @@ const GridItems: GridItemInterface[] = [
         oldPrice: "",
         price: "",
         buttonLink: "https://superpeer.com/makrdev/-/nextjs-mentor",
+    },
+    {
+        layout: "1x2",
+        type: "project",
+        title: "Project Null",
+        icon: "github",
+        color: "#070707",
+        promotion: "Vist",
+        oldPrice: "",
+        price: "",
+        buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
+    },
+    {
+        layout: "1x2",
+        type: "project",
+        title: "Project Null",
+        icon: "github",
+        color: "#070707",
+        promotion: "Vist",
+        oldPrice: "",
+        price: "",
+        buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
+    },
+    {
+        layout: "1x2",
+        type: "project",
+        title: "Project Null",
+        icon: "github",
+        color: "#070707",
+        promotion: "Vist",
+        oldPrice: "",
+        price: "",
+        buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
     },
     {
         layout: "2x2",
@@ -157,7 +180,6 @@ const GridItems: GridItemInterface[] = [
         price: "",
         buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
     },
-
 
 
     {
