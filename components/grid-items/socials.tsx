@@ -14,9 +14,9 @@ const SocialBox = ({ item }: { item: GridItemInterface }) => {
             </div>
             <div className="mt-2">
                 {/* content */}
-                <div className="text-lg font-semibold">{item.title}</div>
+                <div className="@md:text-lg text-base font-semibold">{item.title}</div>
                 <div className="text-sm text-neutral-500">{item.username}</div>
-                {item.description && <div className="text-neutral-500 text-sm mt-1 line-clamp-2 ">{item.description}</div>}
+                {item.description && <div className="text-neutral-500 text-sm mt-1 line-clamp-2 @lg:line-champ-none ">{item.description}</div>}
                 {/* button */}
                 {item.layout === "1x2" && (
                     <div className="mt-2"><Button text={item.buttonTitle ?? ""} secondaryText={item.buttonSecondaryText} color={item.color} /></div>)}

@@ -34,7 +34,7 @@ const GridItems: GridItemInterface[] = [
         icon: "linkdin",
         username: "@Aditya Raushan",
         description:
-            "My true passion is learning and sharing my knowledge, which is why I started creating Youtube videos about web development, startups, and marketing.",
+            "Front-End Web Developer 🖥️ | WordPress, HTML, CSS, JS, React | BCA Student 📚 | #100daysofdev 🚀 | JavaScript Enthusiast 💡 |",
         color: "#0072b1",
         buttonTitle: "Connect",
         buttonLink: "https://www.linkedin.com/in/adiraushan/",
@@ -93,7 +93,31 @@ const GridItems: GridItemInterface[] = [
                 link: "https://www.amazon.com/s?k=godox+m1+rgb&crid=2UBYBKYSIYMDW&sprefix=godox+m1+rg%252Caps%252C199&ref=nb_sb_noss_2&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=3da7371f710f9f4f6af4f5817acc728a&camp=1789&creative=9325",
             },
             {
-                title: "Gsap",
+                title: "Express",
+                link: "https://www.amazon.com/s?k=camlink+4k%252B&sprefix=Camlink+%252Caps%252C210&ref=nb_sb_ss_ts-doa-p_1_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=c95eae861d4db5e1de4ebda68507fbda&camp=1789&creative=9325",
+            },
+            {
+                title: "Mongodb",
+                link: "https://www.amazon.com/s?k=camlink+4k%252B&sprefix=Camlink+%252Caps%252C210&ref=nb_sb_ss_ts-doa-p_1_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=c95eae861d4db5e1de4ebda68507fbda&camp=1789&creative=9325",
+            },
+            {
+                title: "Redux",
+                link: "https://www.amazon.com/s?k=camlink+4k%252B&sprefix=Camlink+%252Caps%252C210&ref=nb_sb_ss_ts-doa-p_1_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=c95eae861d4db5e1de4ebda68507fbda&camp=1789&creative=9325",
+            },
+            {
+                title: "Bootstrap",
+                link: "https://www.amazon.com/s?k=camlink+4k%252B&sprefix=Camlink+%252Caps%252C210&ref=nb_sb_ss_ts-doa-p_1_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=c95eae861d4db5e1de4ebda68507fbda&camp=1789&creative=9325",
+            },
+            {
+                title: "CSS",
+                link: "https://www.amazon.com/s?k=camlink+4k%252B&sprefix=Camlink+%252Caps%252C210&ref=nb_sb_ss_ts-doa-p_1_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=c95eae861d4db5e1de4ebda68507fbda&camp=1789&creative=9325",
+            },
+            {
+                title: "HtML",
+                link: "https://www.amazon.com/s?k=camlink+4k%252B&sprefix=Camlink+%252Caps%252C210&ref=nb_sb_ss_ts-doa-p_1_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=c95eae861d4db5e1de4ebda68507fbda&camp=1789&creative=9325",
+            },
+            {
+                title: "Front-End",
                 link: "https://www.amazon.com/s?k=camlink+4k%252B&sprefix=Camlink+%252Caps%252C210&ref=nb_sb_ss_ts-doa-p_1_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=c95eae861d4db5e1de4ebda68507fbda&camp=1789&creative=9325",
             },
         ],
@@ -112,8 +136,8 @@ const GridItems: GridItemInterface[] = [
             "I craft user-friendly web experiences with expertise in HTML, CSS, and JavaScript frameworks like React. Lets connect.",
     },
     {
-        layout: "2x1",
-        type: "Nextjs",
+        layout: "2x2",
+        type: "project",
         title: "Api caller ",
         icon: "github",
         color: "#070707",
@@ -123,8 +147,8 @@ const GridItems: GridItemInterface[] = [
         buttonLink: "https://superpeer.com/makrdev/-/nextjs-mentor",
     },
     {
-        layout: "2x1",
-        type: "Netflix Using React",
+        layout: "2x2",
+        type: "project",
         title: "Project Null",
         icon: "github",
         color: "#070707",
@@ -133,25 +157,9 @@ const GridItems: GridItemInterface[] = [
         price: "",
         buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
     },
-    {
-        layout: "2x1",
-        type: "project",
-        title: "Nike Re-design",
-        icon: "github",
-        color: "#070707",
-        buttonLink: "https://github.com/batuhanbilginn/makr-ai",
-        stars: 73,
-    },
 
-    {
-        layout: "2x1",
-        type: "project",
-        title: "AI Blog Post Generator",
-        icon: "github",
-        stars: 19,
-        color: "#070707",
-        buttonLink: "https://github.com/batuhanbilginn/ai-blog-post-generator",
-    },
+
+
     {
         layout: "2x2",
         type: "social",
@@ -165,19 +173,7 @@ const GridItems: GridItemInterface[] = [
         buttonLink:
             "https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2",
     },
-    {
-        layout: "2x2",
-        type: "social",
-        title: "Spotify ",
-        username: "@Github/adiraushan",
-        description:
-            "learning to work with more complex Api and connecting the server side to client side.",
-        icon: "spotify",
-        buttonTitle: "Enroll",
-        buttonSecondaryText: "%90 OFF",
-        buttonLink:
-            "https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2",
-    },
+
 ];
 
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import { cn } from '@/utils/cn';
 import { cva, type VariantProps } from "class-variance-authority";
+import { motion } from "framer-motion";
 
 
 const variants = cva(
@@ -26,13 +27,19 @@ export type GridItemProps = { children: React.ReactNode } & VariantProps<
 
 const GridItem = ({ size, children }: GridItemProps) => {
     return (
-        <div className={
-            cn(variants({
-                size
-            }))
-        }>
+        <motion.div
+            initial={{
+                opacity: 0,
+                y: 60,
+                scale: 0.8,
+            }}
+            className={
+                cn(variants({
+                    size
+                }))
+            }>
             {children}
-        </div>
+        </motion.div>
     )
 }
 

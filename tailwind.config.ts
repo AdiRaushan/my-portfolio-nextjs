@@ -23,6 +23,10 @@ const config: Config = {
       none: 'overflow-hidden',
     },
   },
-  plugins: [],
-};
+  plugins: [
+    require('@tailwindcss/container-queries'),
+    // ...
+  ],
+}
+
 export default config;
