@@ -131,6 +131,7 @@ const GridItems: GridItemInterface[] = [
         description: "Netflix App with using api and javascript to fetch movie and data from TMDB",
         icon: "github",
         color: "#070707",
+        image: "/pic.jpg",
         buttonTitle: "🔗 Link",
         buttonLink: "https://github.com/AdiRaushan/Netflix_with-_js",
     },

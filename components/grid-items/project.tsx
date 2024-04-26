@@ -4,11 +4,14 @@ import React from "react";
 import Icon from "../icon";
 import Button from "../button";
 import { ExternalLink } from "lucide-react";
+import Image from "next/image";
 
 const Project = ({ item }: { item: GridItemInterface }) => {
     return (
         <Link href={item.buttonLink ?? ""} target="_Blank" >
             <div className="flex items-center justify-between">
+
+
                 {/* icon */}
                 <Icon type={item.icon ?? ""} color={item.color} />
                 {/* button */}
