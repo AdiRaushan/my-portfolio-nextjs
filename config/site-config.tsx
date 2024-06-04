@@ -139,30 +139,8 @@ const GridItems: GridItemInterface[] = [
     {
         layout: "1x2",
         type: "project",
-        title: "Chatgpt Clone",
-        description: "handling API with understanding of react and js core concept and creating this clone using GPT API",
-        icon: "github",
-        color: "#070707",
-        buttonTitle: "🔗 Link",
-
-        buttonLink: "",
-    },
-    {
-        layout: "1x2",
-        type: "project",
-        title: "Shopo",
-        description: "A shoping website multiple complex funtion,authentication,payment-gateway and more",
-        icon: "github",
-        color: "#070707",
-        buttonTitle: "🔗 Link",
-
-        buttonLink: "",
-    },
-    {
-        layout: "1x2",
-        type: "project",
-        title: "Password Generator",
-        description: "A simple web-based password generator built with React.",
+        title: "Password-generator",
+        description: "Using core Concepts of React to create this one",
         icon: "github",
         color: "#070707",
         buttonTitle: "🔗 Link",
@@ -172,12 +150,34 @@ const GridItems: GridItemInterface[] = [
     {
         layout: "1x2",
         type: "project",
-        title: "Himachal-explore",
-        description: "Responsive Travel Website Design Using HTML CSS & JavaScript Contains animations when scrolling. Smooth scrolling in each section.",
+        title: "Himachal Beauty",
+        description: "A beautiful Guide to Himachal Pardesh",
+        icon: "github",
+        color: "#070707",
+        buttonTitle: "🔗 Link",
+
+        buttonLink: "https://github.com/AdiRaushan/himachal-explore",
+    },
+    {
+        layout: "1x2",
+        type: "project",
+        title: "Weather-app",
+        description: "Api calls to create this one with changing backgroud",
+        icon: "github",
+        color: "#070707",
+        buttonTitle: "🔗 Link",
+
+        buttonLink: "https://github.com/AdiRaushan/Weather-app/tree/main",
+    },
+    {
+        layout: "1x2",
+        type: "project",
+        title: "Fast food Website",
+        description: "A website for all the delicious food",
         icon: "github",
         buttonTitle: "🔗 Link",
         color: "#070707",
-        buttonLink: "https://github.com/AdiRaushan/himachal-explore",
+        buttonLink: "https://github.com/AdiRaushan/Fast-food-Website",
     },
 
 
